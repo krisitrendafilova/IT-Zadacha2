@@ -29,7 +29,7 @@ public class ShowAllPlayers extends HttpServlet {
         List<ChessPlayer> players = storage.getPlayers();
         if(players.isEmpty()){
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
-            out.println("<p>No players are added to the list!</p>");
+            out.println("<p>No players are added to the list! </p>");
         } else {
             response.setStatus(HttpServletResponse.SC_OK);
             players.sort(Comparator.comparing(ChessPlayer::getElo).reversed());

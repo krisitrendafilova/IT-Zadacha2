@@ -2,6 +2,7 @@ package models;
 
 import java.util.Objects;
 
+
 public class ChessPlayer {
     private int fideId;
     private String name;

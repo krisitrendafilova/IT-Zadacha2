@@ -41,7 +41,7 @@ public class AddPlayer extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_OK);
             ChessPlayer player = new ChessPlayer(name, lastName, elo);
             storage.addPlayer(player);
-            out.println("<p>Player is added successfully! </p>");
+            out.println("<p>Player is added successfully!</p>");
         }
         out.println("</body>");
         out.println("</html>");

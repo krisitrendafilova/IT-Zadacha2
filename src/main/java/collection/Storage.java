@@ -5,7 +5,6 @@ import models.ChessPlayer;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Storage {
     private static Storage instance = null;
     private List<ChessPlayer> players;

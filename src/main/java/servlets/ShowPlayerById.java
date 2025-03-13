@@ -27,7 +27,7 @@ public class ShowPlayerById extends HttpServlet {
         String fideId = request.getParameter("fideId");
         if(fideId == null){
             response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-            out.println("<p>Invalid value for fideId! </p>");
+            out.println("<p>Invalid value for fideId!</p>");
             return;
         }
         int fID = Integer.parseInt(fideId);

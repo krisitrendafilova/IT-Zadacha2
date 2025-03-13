@@ -72,7 +72,7 @@ public class ChessPlayer {
     @Override
     public String toString() {
         return "ChessPlayer{" +
-                "fideId=" + fideId +
+                "fideId= " + fideId +
                 ", name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", elo=" + elo +
